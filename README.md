@@ -4,7 +4,8 @@ SLAM and Maze solving AI functionality for a differential-drive robot.
 <p align="center"><img src="webcontent/mazehero.jpg" width="200"></p>
 
 ## Setup
-For initial testing, use the neato_maze.py Gazebo world.
+For initial testing, use the neato_maze.py Gazebo world.:
+
 ros2 launch neato2_gazebo neato_maze.py
 
 
