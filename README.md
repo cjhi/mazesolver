@@ -17,5 +17,3 @@ Final project for A Computational Introduction to Robotics at Olin College, Fall
 Lauren Thorbecke [(GitHub)](https://github.com/laurent1171)\
 Benjamin Tarr [(GitHub)](https://github.com/cmot17)\
 CJ Hilty [(GitHub)](https://github.com/cjhi)
-
-
