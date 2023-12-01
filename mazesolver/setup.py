@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'wall_follower = mazesolver.wall_follower:main'
+            'wall_follower = mazesolver.wall_follower:main',
+            'follow_path = mazesolver.follow_path:main'
         ],
     },
 )
