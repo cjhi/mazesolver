@@ -11,6 +11,7 @@ ros2 launch neato2_gazebo neato_maze.py
 ## Dijkstra's
 
 In the [Introduction](https://networkx.org/documentation/stable/reference/introduction.html) of NetworkX docs, the Graph class stores node data as a "dict-of-dicts", having node>connections and connections>cost, which is the same as we have in our rudimentary implementation. 
+We referenced the [tutorial](https://networkx.org/documentation/stable/tutorial.html) for information.
 ## About
 Final project for A Computational Introduction to Robotics at Olin College, Fall 2023.
 ### Project Proposal

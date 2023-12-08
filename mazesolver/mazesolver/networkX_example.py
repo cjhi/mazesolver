@@ -17,3 +17,6 @@ maze_graph = nx.Graph()
 maze_graph.add_edges_from(edges_list)
 
 print(maze_graph)
+
+solution = nx.shortest_path(maze_graph, source="S", target="E", weight=None, method='dijkstra')
+print(solution)

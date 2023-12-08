@@ -1,14 +1,14 @@
-# Example using an adjacency list for the graph representation
+# Example using an adjacency list for the graph
+# representation as dict-of-dicts
 graph = {
-    'A': {'B': 1, 'C': 1},
-    'B': {'A': 1, 'C': 1, 'D': 1},
+    'A': {'B': 2, 'C': 1},
+    'B': {'A': 2, 'C': 1, 'D': 1},
     'C': {'A': 1, 'B': 1, 'D': 1},
     'D': {'B': 1, 'C': 1}
 }
 
 distance = {node: float('infinity') for node in graph}
 distance['A'] = 0
-
 
 import heapq
 priority_queue = [(0, 'A')]
@@ -50,3 +50,4 @@ shortest_distance = dijkstra(graph, start_node)[end_node]
 path = shortest_path(graph, start_node, end_node)
 
 print(f"Path: {path}")
+
