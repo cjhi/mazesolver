@@ -100,7 +100,7 @@ for i, line in enumerate(text_lines):
 # Combine all of the boxes together
 maze_mesh = trimesh.util.concatenate(boxes)
 boolean_maze = trimesh.boolean.union(boxes)
-boolean_maze.apply_scale(1000)
+# boolean_maze.apply_scale(1000)
 boolean_maze.export("maze.stl")
 
 # Save the image
