@@ -1,10 +1,9 @@
-# Import necessary libraries
 import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt
 
 
-def generate_graph(file) -> nx.graph.Graph:
+def generate_graph(file) -> nx.graph.Graph: # Pylance
     # Open and read the maze file
     maze_file = open(file, "r")
     text_maze = maze_file.read()
@@ -43,3 +42,10 @@ def show_graph(graph: nx.graph.Graph):
 
     # Display the graph
     plt.show()
+
+if __name__ == "__main__":
+    maze_graph = generate_graph("mazesolver/mazesolver/maze_gen/large_example.txt")
+    show_graph(maze_graph)
+    distance = {node: float('1') for node in maze_graph}
+    print(distance.keys())
+    
