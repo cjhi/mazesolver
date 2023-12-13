@@ -10,7 +10,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name, ['maze_objs/WholeMaze.stl'])
+        #('share/' + package_name, ['maze_objs/WholeMaze.stl'])
 
     ],
     install_requires=['setuptools'],
@@ -23,7 +23,7 @@ setup(
     entry_points={
         'console_scripts': [
             'wall_follower = mazesolver.wall_follower:main',
-            'follow_path = mazesolver.follow_path:main'
+            'follow_path_lidar = mazesolver.follow_path_lidar:main',
         ],
     },
 )
