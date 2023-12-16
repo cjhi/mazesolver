@@ -53,6 +53,5 @@ path = shortest_path(graph,start_node,end_node)
 # print("trying path")
 # path = shortest_path(graph, start_node, end_node)
 
-print(f"Path: {path}")
-print(path[0])
+print(f"Waypoints: {path}")
 # Put path
